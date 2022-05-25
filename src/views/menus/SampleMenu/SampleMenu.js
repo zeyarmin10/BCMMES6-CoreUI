@@ -90,73 +90,73 @@ const SampleMenu = () => {
   console.log(searchData);
 
   const searchClick = () => {
-      let obj = [];
+    let obj = [];
 
-      if(searchData == '') {
-        alert('Please Select One');
-      } else if (searchData == '1') {
-        obj = [
-            {
-            'id': 'search ID',
-            'name': 'search ID',
-            'email': 'search ID',
-            'phone': 'search ID',
-            },
-            {
-                'id': 'search ID',
-                'name': 'search ID',
-                'email': 'search ID',
-                'phone': 'search ID'
-            },
-        ]
-      } else if (searchData== '2') {
-        obj = [
-            {
-            id: 'search Name',
-            name: 'search Name',
-            email: 'search Name',
-            phone: 'search Name'
-            },
-            {
-                id: 'search Name',
-                name: 'search Name',
-                email: 'search Name',
-                phone: 'search Name',
-            }
-        ]
-      } else if (searchData == '3') {
-        obj = [
-            {
-                id: 'search email',
-                name: 'search email',
-                email: 'search email',
-                phone: 'search email'
-                },
-                {
-                    id: 'search email',
-                    name: 'search email',
-                    email: 'search email',
-                    phone: 'search email',
-                }    
-        ]
-      } else {
-        obj = [
-            {
-                id: 'search phone',
-                name: 'search phone',
-                email: 'search phone',
-                phone: 'search phone'
-                },
-                {
-                    id: 'search phone',
-                    name: 'search phone',
-                    email: 'search phone',
-                    phone: 'search phone',
-                }
-        ]
-      }
-      setSearchResult(obj);
-  }
+    if (searchData == "") {
+      alert("Please Select One");
+    } else if (searchData == "1") {
+      obj = [
+        {
+          id: "search ID",
+          name: "search ID",
+          email: "search ID",
+          phone: "search ID",
+        },
+        {
+          id: "search ID",
+          name: "search ID",
+          email: "search ID",
+          phone: "search ID",
+        },
+      ];
+    } else if (searchData == "2") {
+      obj = [
+        {
+          id: "search Name",
+          name: "search Name",
+          email: "search Name",
+          phone: "search Name",
+        },
+        {
+          id: "search Name",
+          name: "search Name",
+          email: "search Name",
+          phone: "search Name",
+        },
+      ];
+    } else if (searchData == "3") {
+      obj = [
+        {
+          id: "search email",
+          name: "search email",
+          email: "search email",
+          phone: "search email",
+        },
+        {
+          id: "search email",
+          name: "search email",
+          email: "search email",
+          phone: "search email",
+        },
+      ];
+    } else {
+      obj = [
+        {
+          id: "search phone",
+          name: "search phone",
+          email: "search phone",
+          phone: "search phone",
+        },
+        {
+          id: "search phone",
+          name: "search phone",
+          email: "search phone",
+          phone: "search phone",
+        },
+      ];
+    }
+    setSearchResult(obj);
+  };
 
   return (
     <div>

@@ -54,6 +54,11 @@ export default [
         _tag: 'CSidebarNavItem',
         name: 'User Info',
         to: '/menus/SampleMenu',
+      },
+      {
+        _tag: 'CSidebarNavItem',
+        name: 'Edit Data',
+        to: '/menus/editMenu',
       }
 
     ]
