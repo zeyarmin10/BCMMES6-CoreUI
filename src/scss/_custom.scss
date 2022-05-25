@@ -1,78 +1,76 @@
 // Here you can add other styles
+
 // Sub Menu
 h1 {
-    color: darkblue;
-    text-align: center;
-    padding-bottom: 1.5rem;
-  }
-  .user-reg label {
-    width: 10rem;
-    text-align: end;
-    vertical-align: top;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
-  }
-  
-  .user-reg input {
-    width: 20rem;
-    padding: 0.5rem;
-  }
-  .user-reg textarea {
-    width: 20rem;
-  }
-  .profileList {
-    display: flex;
-  }
-  .user-profile ul li {
-    width: 5rem;
-    list-style: none;
-    padding-bottom: 1.5rem;
-    text-align: start;
-    vertical-align: top;
-  }
-  .userProfileDisplay  ul li {
-    width: 10rem;
-    list-style: none;
-    padding-bottom: 1.5rem;
-    text-align: start !important;
-    vertical-align: top;
-  }
+  color: darkblue;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.user-reg label {
+  width: 10rem;
+  text-align: end;
+  vertical-align: top;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
 
-  
-  //Sub Menu 1
-//   input {
-//     padding: 0.5rem;
-//     margin-right: 1rem;
-//     font-size: 1rem;
-//     width: 7rem;
-// }
-// button {
-//     width: 4rem;
-//     height: 3rem;
-//     font-size: 1.4rem;
-//     margin-right: 1rem;
-//     border: 1px solid green;
-//     color: green;
-//     border-radius: 1rem;
-//     box-shadow: 3px 5px #888888;
-// }
-// button:hover {
-//     background-color: aqua;
-//     box-shadow: 3px 5px #bbbbbb;
-    
-// }
-// .opsign {
-//     width: 4rem;
-// }
-// .Subs {
-//     margin-top: 2rem;
-// }
-// label {
-//     padding-left: 1rem;
-//     padding-right: 1rem;
-//     font-size: 1.5rem;
-// }
+.user-reg input {
+  width: 20rem;
+  padding: 0.5rem;
+}
+.user-reg textarea {
+  width: 20rem;
+}
+.profileList {
+  display: flex;
+}
+.user-profile ul li {
+  width: 5rem;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  text-align: start;
+  vertical-align: top;
+}
+.userProfileDisplay ul li {
+  width: 10rem;
+  list-style: none;
+  padding-bottom: 1.5rem;
+  text-align: start !important;
+  vertical-align: top;
+}
 
+//Sub Menu 1
+.inputCalc {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  width: 7rem;
+}
+.btnCalc {
+  width: 4rem;
+  height: 3rem;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+  border: 1px solid green;
+  color: green;
+  border-radius: 1rem;
+  box-shadow: 3px 5px #888888;
+}
+.btnCalc:hover {
+  background-color: aqua;
+  box-shadow: 3px 5px #bbbbbb;
+}
+.opsign {
+  width: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+.Subs {
+  margin-top: 2rem;
+}
+
+//User Info
 .input-container {
   padding-left: 1.5rem;
 }
@@ -81,9 +79,9 @@ h1 {
 }
 
 .btn-add {
-    margin: 4rem auto;
-    width: 10rem;
-    height: 3rem;
+  margin: 4rem auto;
+  width: 10rem;
+  height: 3rem;
 }
 .btn-add {
   transition-property: background-color;
@@ -91,52 +89,48 @@ h1 {
   transition-timing-function: ease-in;
   transition-delay: 0.3s;
 }
-@keyframes identifier {
-  
-}
 .add-btn-css {
-    text-align: center;
-    border: none;
-    color: white;
-    background-color: #3C4B64;
-    width: 10rem;
-    line-height: 2rem;
-    font-size: 1rem;
-    border-radius: 1.5rem;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: #3c4b64;
+  width: 10rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  border-radius: 1.5rem;
 }
 .add-btn-css:focus {
-    outline: none;
+  outline: none;
 }
 .add-btn-css:hover {
   background-color: grey;
   transform: translateY(-5px);
 }
 .input {
-    padding: 0.3rem;
-    width: 15rem;
-    border: none !important;
-    background-color: whitesmoke;
-    border-top: 1px solid grey !important;
-    border-left: 1px solid grey !important;
-    box-shadow: 3px 3px grey;
-    border-radius: 0.5rem;
+  padding: 0.3rem;
+  width: 15rem;
+  border: none !important;
+  background-color: whitesmoke;
+  border-top: 1px solid grey !important;
+  border-left: 1px solid grey !important;
+  box-shadow: 3px 3px grey;
+  border-radius: 0.5rem;
 }
 .input:focus {
-    background-color: #dbdddf;
-    outline: none;
-    border-radius: 0.5rem;
+  background-color: #dbdddf;
+  outline: none;
+  border-radius: 0.5rem;
 }
-.table-style{
-    width: 100%;
+.table-style {
+  width: 100%;
 }
-.table-style th, .table-style td{
-    line-height: 1.5rem;
-    width: 10rem;
-    text-align: center;
-    vertical-align: center;
+.table-style th,
+.table-style td {
+  line-height: 1.5rem;
+  width: 10rem;
+  text-align: center;
+  vertical-align: center;
 }
-
-
 
 .select-box {
   padding-bottom: 2rem;
@@ -150,13 +144,12 @@ h1 {
 .search-btn:hover {
   background-color: peru;
   transform: translateY(-3px);
-  box-shadow:
-       inset 0 -3em 3em rgba(0,0,0,0.1),
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   color: white;
 }
 
+//Edit Info
 .info {
   width: 20rem;
   margin: 0 auto;
@@ -168,7 +161,6 @@ h1 {
   width: 20rem;
   margin: 1rem auto;
   text-align: center;
-
 }
 .btn-reset {
   margin: 0 auto;
@@ -183,9 +175,7 @@ h1 {
 .btn-reset:hover {
   background-color: peru;
   transform: translateY(-3px);
-  box-shadow:
-       inset 0 -3em 3em rgba(0,0,0,0.1),
-             0 0  0 2px rgb(255,255,255),
-             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   color: white;
 }
