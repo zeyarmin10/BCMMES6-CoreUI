@@ -72,12 +72,29 @@ h1 {
 //     padding-right: 1rem;
 //     font-size: 1.5rem;
 // }
-.btn-add {
-    margin: 4rem auto;
-    width: 11rem;
+
+.input-container {
+  padding-left: 1.5rem;
+}
+.input-container label {
+  padding-left: 0.5rem;
 }
 
-.btn-add button{
+.btn-add {
+    margin: 4rem auto;
+    width: 10rem;
+    height: 3rem;
+}
+.btn-add {
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+  transition-delay: 0.3s;
+}
+@keyframes identifier {
+  
+}
+.add-btn-css {
     text-align: center;
     border: none;
     color: white;
@@ -87,8 +104,12 @@ h1 {
     font-size: 1rem;
     border-radius: 1.5rem;
 }
-.btn-add button:focus {
+.add-btn-css:focus {
     outline: none;
+}
+.add-btn-css:hover {
+  background-color: grey;
+  transform: translateY(-5px);
 }
 .input {
     padding: 0.3rem;
@@ -97,7 +118,7 @@ h1 {
     background-color: whitesmoke;
     border-top: 1px solid grey !important;
     border-left: 1px solid grey !important;
-    box-shadow: 2px 3px lightblue;
+    box-shadow: 3px 3px grey;
     border-radius: 0.5rem;
 }
 .input:focus {
@@ -113,4 +134,26 @@ h1 {
     width: 10rem;
     text-align: center;
     vertical-align: center;
+}
+
+
+
+.select-box {
+  padding-bottom: 2rem;
+}
+.search-btn {
+  border: none;
+  width: 5rem;
+  // height: 2.5rem;
+  background-color: grey;
+  color: white;
+}
+.search-btn:hover {
+  background-color: peru;
+  transform: translateY(-3px);
+  box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+  color: white;
 }

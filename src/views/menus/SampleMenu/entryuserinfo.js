@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const EntryUserInfo = (props) => {
   return (
     <div>
-      <div className="row">
+      <div className="row input-container">
         <div className="col">
           <div className="row">
             <label><b>ID</b></label>
@@ -38,7 +38,7 @@ const EntryUserInfo = (props) => {
         </div>
       </div>
       <div className="row btn-add">
-        <button onClick={props.addbtn}>ADD</button>
+        <button className="add-btn-css" onClick={props.addbtn}>ADD</button>
       </div>
     </div>
   );
