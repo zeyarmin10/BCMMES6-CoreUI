@@ -41,7 +41,7 @@ function Calc() {
 
   const isequalto = () => {
     let res = parseInt(firstInput) + parseInt(thirdInput);
-    console.log(res)
+    console.log(res);
     setResultInput(res);
   };
 
@@ -65,13 +65,12 @@ function Calc() {
     let res = parseInt(subsFirst) - parseInt(substhird);
     console.log(res);
     setSubsResult(res);
-
   };
 
   return (
     <>
       <h1>Calculation</h1>
-      <div style={{ display: "" }}>
+      <div>
         <Add
           firstInput={firstInput}
           secInput={secInput}
