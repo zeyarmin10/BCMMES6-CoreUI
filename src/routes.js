@@ -16,6 +16,9 @@ const CheckBox = React.lazy(() =>
 const EmployeeProfile = React.lazy(() =>
   import("./views/menus/employee-profile/employeeProfileIndex")
 );
+const SuPyaeMg = React.lazy(() =>
+  import("./views/menus/supyaemg/SampleFormIndex")
+);
 
 const routes = [
   { path: "/", exact: true, name: "Home" },
@@ -31,6 +34,11 @@ const routes = [
     path: "/menus/employee-profile",
     name: "Employee Profile",
     component: EmployeeProfile,
+  },
+  {
+    path: "/menus/supyaemg",
+    name: "Sample Form",
+    component: SuPyaeMg,
   },
 ];
 

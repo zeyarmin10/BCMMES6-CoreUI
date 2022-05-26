@@ -75,6 +75,11 @@ export default [
         name: "Employee Profile",
         to: "/menus/employee-profile",
       },
+      {
+        _tag: "CSidebarNavItem",
+        name: "Sample Form",
+        to: "/menus/supyaemg",
+      },
     ],
   },
   {
