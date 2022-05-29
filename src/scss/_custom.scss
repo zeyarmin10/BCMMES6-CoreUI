@@ -191,3 +191,91 @@ h1 {
 .check-box {
   padding-left: 3rem;
 }
+
+// Sample Form
+.add-btn {
+  background-color: #55c5ed;
+  color: #000000;
+  border-color: #e7e5e5;
+  border-radius: 6px;
+  min-width: 6rem;
+  height: 2.5rem;
+}
+.add-btn:hover {
+  background-color: #699c44;
+  color: white;
+}
+
+// Register Form
+
+h1 {
+  margin: 3rem auto;
+  text-align: center;
+}
+.regForm {
+  width: 100%;
+  margin: 1rem auto;
+}
+.inputBoxContainer {
+  display: flex;
+  width: 50%;
+  margin-top: 1.5rem;
+  margin: 1rem auto;
+}
+.inputLabel {
+  text-align: end;
+  width: 25%;
+  padding-right: 2rem;
+}
+.inputBox {
+  text-align: start;
+  width: 65%;
+  display: flex;
+}
+.textInput {
+  width: 65%;
+  height: 2rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #bde0fe;
+  box-shadow: 3px 3px 3px 3px #e9edc9;
+  padding-left: 0.5rem;
+}
+.textInput:focus {
+  outline: none;
+  background-color: #d8e2dc;
+}
+.radioBox {
+  padding-right: 2rem;
+}
+.radioInput {
+  padding: 0.5rem;
+}
+.checkBox {
+  padding-right: 0.9rem;
+}
+.btnContainer {
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnSave {
+  margin: 1rem;
+  width: 30%;
+  line-height: 2rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #264653;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 10px 10px -2px #457b9d;
+}
+.btnSave:hover {
+  color: white;
+  background-color: #2a9d8f;
+  border: none;
+  transform: translateY(-3px);
+}

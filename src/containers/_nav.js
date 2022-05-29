@@ -80,6 +80,11 @@ export default [
         name: "Sample Form",
         to: "/menus/supyaemg",
       },
+      {
+        _tag: "CSidebarNavItem",
+        name: "Register Form",
+        to: "/menus/register",
+      },
     ],
   },
   {

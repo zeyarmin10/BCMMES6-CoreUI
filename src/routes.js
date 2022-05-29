@@ -1,4 +1,5 @@
 import React from "react";
+import Register from "./views/menus/register/registerIndex";
 
 const SubMenu = React.lazy(() => import("./views/menus/sub-menu/SubMenu"));
 const CodeTesting = React.lazy(() =>
@@ -39,6 +40,11 @@ const routes = [
     path: "/menus/supyaemg",
     name: "Sample Form",
     component: SuPyaeMg,
+  },
+  {
+    path: "/menus/register",
+    name: "Register Form",
+    component: Register,
   },
 ];
 

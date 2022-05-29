@@ -2,7 +2,7 @@ import { CCol, CInputCheckbox, CLabel, CRow } from "@coreui/react";
 import React from "react";
 
 const CheckBoxChild = (props) => {
-  let { chkData, chkChange, chkResult, resultData } = props;
+  let { chkData, chkChange, chkResult, resultDataName } = props;
   return (
     <CRow className="check-box">
       {chkData.map((data, index) => {
@@ -18,10 +18,10 @@ const CheckBoxChild = (props) => {
         );
       })}
       <CCol md="12">
-        {resultData != "" && (
+        {resultDataName != "" && (
           <CLabel style={{ paddingTop: "2rem" }}>
             Check:
-            {resultData.map((i, index) => i)}
+            {resultDataName}
           </CLabel>
         )}
       </CCol>

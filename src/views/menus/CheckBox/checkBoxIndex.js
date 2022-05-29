@@ -11,11 +11,9 @@ const CheckBoxIndex = () => {
   ]);
 
   let [chkValue, setCheckValue] = useState([]);
-  let [chkResult, setCheckResult] = useState("");
+  let [chkResult, setCheckResult] = useState([]);
 
-  let [resultData, setResultData] = useState([]);
-
-  let ResultNameArr = [];
+  let [resultDataName, setResultDataName] = useState([]);
 
   const chkChange = (e) => {
     let RestultArr = [];
@@ -27,15 +25,16 @@ const CheckBoxIndex = () => {
     SetChkData(chkedData);
     // console.log(chkedData);
     chkedData.filter((data) =>
-      data.is_checked ? RestultArr.push(data.name) : ""
+      data.is_checked ? RestultArr.push(data.name, ", ") : ""
     );
+    setResultDataName(RestultArr);
+
     // for (let i = 0; i < chkedData.length; i++) {
     //   if (chkedData[i].is_checked == true) {
     //     RestultArr.push(chkedData[i]);
     //   }
     // }
     // setResultData(RestultArr);
-    setResultData(RestultArr);
   };
 
   return (
@@ -45,7 +44,7 @@ const CheckBoxIndex = () => {
         chkValue={chkValue}
         chkResult={chkResult}
         chkChange={chkChange}
-        resultData={resultData}
+        resultDataName={resultDataName}
       />
     </div>
   );
